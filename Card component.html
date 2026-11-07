@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>Card component</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .card {
+                width: 300px;
+                border: 1px solid gray;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+            .card img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+            .card h2 {
+                margin-bottom: 15px;
+            }
+            .card p {
+                margin-top: 10px;
+                font-size: 1em;
+            }
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007BFF;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_6LNPnqCR11tgwPFxCH4_Q0WIa9DfwYCv41org0E9g&s=10"
+            alt="Beautiful landscape"
+            <h2>Card title</h2>
+            <p>This is a card component. It has a title and some text.</p>
+        </div>
+    </body>
+    <button class="button">Click me</button>
+</html>
